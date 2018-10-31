@@ -15,14 +15,6 @@ Note the previous command generated a collection of TF-Records instead of a sing
 
 ## Evaluation on Pascal VOC 2007
 
-The present TensorFlow implementation of SSD models have the following performances:
-
-| Model | Training data  | Testing data | mAP | FPS  |
-|--------|:---------:|:------:|:------:|:------:|
-| [SSD-300 VGG-based](https://drive.google.com/open?id=0B0qPCUZ-3YwWZlJaRTRRQWRFYXM) | VOC07+12 trainval | VOC07 test | 0.778 | - |
-| [SSD-300 VGG-based](https://drive.google.com/file/d/0B0qPCUZ-3YwWUXh4UHJrd1RDM3c/view?usp=sharing) | VOC07+12+COCO trainval | VOC07 test | 0.817 | - |
-| [SSD-512 VGG-based](https://drive.google.com/open?id=0B0qPCUZ-3YwWT1RCLVZNN3RTVEU) | VOC07+12+COCO trainval | VOC07 test | 0.837 | - |
-
 We are working hard at reproducing the same performance as the original [Caffe implementation](https://github.com/weiliu89/caffe/tree/ssd)!
 
 After downloading and extracting the previous checkpoints, the evaluation metrics should be reproducible by running the following command:
